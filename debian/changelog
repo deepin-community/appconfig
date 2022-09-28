@@ -1,0 +1,104 @@
+appconfig (1.71-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 00:33:26 +0100
+
+appconfig (1.71-2) unstable; urgency=medium
+
+  * Fix POD syntax error in AppConfig::CGI (Closes: #357665).
+  * Update Standards-Version.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri, 28 Jul 2017 08:26:49 +0200
+
+appconfig (1.71-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Standards-Version.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 22 Jun 2017 18:53:29 +0200
+
+appconfig (1.66-2) unstable; urgency=medium
+
+  * Add watch file.
+  * Increase debhelper compatibility level to 9.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 08 Dec 2016 17:58:41 +0100
+
+appconfig (1.66-1) unstable; urgency=low
+
+  * New upstream releases (Closes: #585632)
+  * Update Standards-Version.
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 12 Sep 2011 08:40:54 +0200
+
+appconfig (1.56-1) unstable; urgency=low
+
+  * (many) New upstream releases (closes: #177168, #177641, #250398)
+  * Non-Maintainer Upload (NMU)
+  * Updates include AppConfig::CGI, HEREDOC support, defaults for lists 
+  and hashes and comments anywhere on a line
+  * Update source package name to reflect upstream change
+  * Remove examples, dropped upstream
+  * Update description to be somewhat more useful
+  * Update standards versions to 3.6.1.0, probably no changes
+
+ -- Anand Kumria <wildfire@progsoc.org>  Sat, 18 Sep 2004 02:31:51 +1000
+
+appconfig-perl (1.52-8) unstable; urgency=low
+
+  * fixed error in POD documentation (Closes: #162337, thanks to
+    Christian Garbs <debian@cgarbs.de>) 
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 26 Sep 2002 00:51:46 +0200
+
+appconfig-perl (1.52-7) unstable; urgency=low
+
+  * included Perl copyright (Closes: #157528)
+  * moved dh_ commands to binary-indep target (Closes: #157455)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 21 Aug 2002 08:36:04 +0200
+
+appconfig-perl (1.52-6) unstable; urgency=low
+
+  * spelling error fixed in description (Closes: #124889)
+  * missing '>' fixed in POD documentation (Closes: #128655, thanks to
+    David D. Kilzer <ddkilzer@lubricants-oil.com>)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue,  9 Jul 2002 18:14:46 +0200
+
+appconfig-perl (1.52-5) unstable; urgency=low
+
+  * made Build-Depends compliant to Perl policy
+  * bumped up Standards-Version
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 20 Aug 2001 21:18:05 +0200
+
+appconfig-perl (1.52-4) unstable; urgency=low
+
+  * debhelper Build-Depends added
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 13 Aug 2001 22:16:45 +0200
+
+appconfig-perl (1.52-3) unstable; urgency=low
+
+  * First official Debian package.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri, 23 Mar 2001 23:07:51 +0100
+
+appconfig-perl (1.52-2) unstable; urgency=low
+
+  * README,TODO files added to documentation.
+  * Changes file added.
+  * Example files added.
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 29 Nov 2000 08:44:30 +0100
+
+appconfig-perl (1.52-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Stefan Hornburg <racke@linuxia.de>  Sat, 28 Oct 2000 10:32:01 +0200
+
+
